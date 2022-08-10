@@ -1,0 +1,1 @@
+This repo is from the [Rock Paper Scissors Game - UI & JavaScript](https://youtu.be/WR_pWXJZiRY) YouTube tutorial by [Brad Traversy](https://www.youtube.com/c/TraversyMedia) [@bradtraversy](https://codepen.io/bradtraversy).
