@@ -6,7 +6,6 @@
   --light-color: #f4f4f4;
   --lose-color: #dc3545;
   --win-color: #28a745;
-  --modal-duration: 1s;
 }
 
 * {
@@ -90,6 +89,14 @@ body {
 
 .choice:hover {
   color: var(--primary-color);
+}
+
+.text-win {
+  color: var(--win-color);
+}
+
+.text-loose {
+  color: var(--lose-color);
 }
 
 @media (max-width: 700px) {

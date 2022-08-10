@@ -1,0 +1,50 @@
+:root {
+  --modal-duration: 1s;
+}
+
+.modal {
+  display: none;
+  height: 100%;
+  width: 100%;
+
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 10% auto;
+  padding: 3rem;
+  width: 350px;
+
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+
+  animation-name: modal-open;
+  animation-duration: var(--modal-duration);
+}
+
+.modal-content h1 {
+  margin-bottom: 1rem;
+}
+
+.modal-content p {
+  margin-top: 1rem;
+
+  font-size: 1.2rem;
+}
+
+@keyframes modal-open {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
